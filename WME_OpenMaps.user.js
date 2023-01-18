@@ -1198,6 +1198,25 @@ function init(e) {
         }
       }
     }, {
+      id: 115,
+      title: 'Maryland Six Inch Imagery',
+      url: 'https://geodata.md.gov/imap/services/Imagery/MD_SixInchImagery/MapServer/WMSServer',
+      crs: 'EPSG:3857',
+      bbox: new OpenLayers.Bounds(-8852727, 4559519, -8349977, 4830929),
+      format: 'image/png',
+      area: 'US',
+      abstract: 'Maryland Six Inch Imagery - Image Service',
+      attribution: 'State of Maryland',
+      queryable: false,
+      default_layers: ['MD_SixInchImagery'],
+      layers: {
+        'MD_SixInchImagery': {
+          queryable: false,
+          title: 'Maryland Six Inch Imagery',
+          abstract: 'Maryland Six Inch Imagery - Image Service'
+        }
+      }
+    }, {
       id: 3101,
       title: 'BAG',
       url: 'https://service.pdok.nl/lv/bag/wms/v2_0',
